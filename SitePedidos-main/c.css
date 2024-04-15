@@ -1,0 +1,234 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #c20a0a;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.logo-imagem {
+    background-image: url('LOGOSEMFUNDO.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    align-items: center; 
+}
+
+.nav-flex {
+    display: inline-flex;
+    align-items: center;
+}
+
+main {
+    padding: 10px;
+}
+
+.menu {
+    margin: 20px;
+    float: left;
+    position: absolute;
+    z-index: 0;
+}
+
+.img-principal {
+    border: 2px solid #9e0000;
+    width: 70%;
+    border-radius: 30px;
+    top: 10px;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.menu-item {
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin-left: 10px;
+    width: 150%;
+    border-radius: 30px;
+}
+
+.menu-item img {
+    max-width: 250px;
+}
+
+.carrinho {
+    float: right;
+    width: 30%;
+    border: 1px solid #ccc;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    border-radius: 30px;
+}
+
+.button-finalizar {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.buttons {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.icone {
+    background-color: #ffffff;
+    border: solid 1px #ffffff;
+    cursor: pointer;
+    border-top: 50px;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.tamanho-fonte-titulo {
+    font-size: 40px;
+    text-align: center;
+}
+
+.tamanho-fonte-subtitulo {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.tamanho-font-texto {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 15px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.menu-item button {
+    margin-top: 5px;
+}
+
+.menu-item input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.but{
+    display: block; 
+    width: 30%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-bottom: 10px; 
+    margin-left:50px; 
+    border-radius: 10px;
+}
+
+@media (max-width: 765px) {
+   
+    body {
+        font-size: 20px;
+    }
+
+    .menu-item img {
+    max-width: 70%;
+    height: auto;
+     
+    }
+
+    .menu-item h3 {
+        font-size: 20px;
+    }
+
+    .menu-item p {
+        font-size: 20px;
+     
+    }
+ 
+    .menu-item {
+    margin-bottom: 10px; /
+    }
+ 
+    .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    }
+
+    .carrinho {
+        position: fixed;
+        bottom: 0;
+        right: 20px;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .logo-imagem {
+        background-image: url('LOGOSEMFUNDO.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 200px;
+        text-align: center;
+        display: flex;
+        align-items: center; 
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 375px) {
+    .logo-imagem{
+        width: 0px;
+        height: 0px;
+        border: 0px solid white;
+}
+
+    .title {
+        font-size: 28px;
+        text-align: center;
+        margin-left: 15px;
+  }
+}
