@@ -242,6 +242,12 @@ p {
         margin-left: 15px;
   }
 
+  .img-principal {
+    width: 410px;
+    align-items: center;
+    display: block;
+}
+
 }
 
 @media (max-width: 375px) {
@@ -256,5 +262,10 @@ p {
         text-align: center;
         margin-left: 15px;
 }
+
+    .img-principal {
+        width: 310px;
+        align-items: center;
+        display: block;
 
 }
